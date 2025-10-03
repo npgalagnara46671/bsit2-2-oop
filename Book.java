@@ -1,5 +1,4 @@
-
-{
+public class Book extends LibraryItem implements Borrowable {
     private String isbn;
     private int numberOfPages;
     private String genre;
